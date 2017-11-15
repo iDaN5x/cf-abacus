@@ -55,8 +55,10 @@ const query = '{ account(account_id: "1234", time: 1420502400000) { ' +
   'organization_id, resources { resource_id, aggregated_usage { ' +
   'metric, windows { quantity }}}}}';
 
-request.get(reporting + '/v1/metering/aggregated/usage/graph/:query', {
-  query: query
+request.post(reporting + '/v1/metering/aggregated/usage/graph', {
+  body: {
+    query: query
+  }
 }, (err, val) => {
   if(err)
     console.log('Response', err);
