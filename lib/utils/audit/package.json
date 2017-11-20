@@ -27,8 +27,7 @@
     "lint": "eslint",
     "pub": "publish"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "abacus-eslint": "file:../../../tools/eslint",
     "abacus-mocha": "file:../../../tools/mocha",

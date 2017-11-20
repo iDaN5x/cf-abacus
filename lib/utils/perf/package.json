@@ -29,7 +29,7 @@
   "dependencies": {
     "abacus-debug": "file:../debug",
     "abacus-events": "file:../events",
-    "abacus-moment":"file:../moment",
+    "abacus-moment": "file:../moment",
     "underscore": "^1.8.3"
   },
   "devDependencies": {

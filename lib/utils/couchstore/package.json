@@ -29,8 +29,8 @@
   "dependencies": {
     "abacus-debug": "file:../debug",
     "abacus-moment": "file:../moment",
-    "abacus-dbclient":"file:../dbclient",
-    "express-session":"1.15.2"
+    "abacus-dbclient": "file:../dbclient",
+    "express-session": "1.15.2"
   },
   "devDependencies": {
     "abacus-eslint": "file:../../../tools/eslint",
