@@ -164,7 +164,6 @@
     "abacus-coverage": "file:tools/coverage",
     "abacus-eslint": "file:tools/eslint",
     "abacus-mddoc": "file:tools/mddoc",
-    "abacus-mocha": "file:tools/mocha",
     "abacus-publish": "file:tools/publish",
     "abacus-replace-template": "file:tools/replace-template",
     "check-node-version": "^2.1.0",
@@ -176,6 +175,6 @@
   },
   "engines": {
     "node": ">=6.11.4 <9.0.0",
-    "npm": "<5.0.0"
+    "npm": "^5.3.1"
   }
 }
